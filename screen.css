@@ -1,4 +1,32 @@
-/* Add screen styles below */
-a.active {
-    font-weight: bold;
+body
+{
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: #505150;
+}
+
+h1
+{
+    margin-bottom: 5%;
+    font-size: 60px;
+}
+
+p
+{
+    font-size: 30px;
+}
+
+.container
+{
+    display: flex;
+}
+
+.container div
+{
+    margin: auto;
+}
+
+.inactive
+{
+    opacity: 0.3;
 }
